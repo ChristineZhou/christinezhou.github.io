@@ -81,11 +81,10 @@
 
         let select_year = 2008
         let csv_data, xs, ys, cs = null
-        let data = "https://purohitpraven.github.io/Worldbank_GDP related data.csv"
+        let data = "https://christinezhou.github.io/worldbank-gdp-data.csv"
 
         async function init() {
             d3.csv(data)
-        // d3.csv("https://purohitpraven.github.io/Worldbank_GDP related data.csv")
             .then(function(data) {
                 let margin = 50,
                     svg_dim = 500,
